@@ -225,7 +225,7 @@ function timer() {
         document.getElementById("timer").innerHTML = sec;
         sec++;
     }, 1000)
-    var count = setTimeout(nothing, 6000); //ends at 6secs
+    var count = setTimeout(nothing, 60000); //ends at 60secs
 
 }
 
